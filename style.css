@@ -1,0 +1,145 @@
+@font-face {
+	font-family: "Inter-Regular";
+	src: url("./fonts/Inter-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Inter-Bold";
+	src: url("./fonts/Inter-Bold.ttf");
+}
+
+@font-face {
+	font-family: "Inter-SemiBold";
+	src: url("./fonts/Inter-SemiBold.ttf");
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+h1,
+a,
+p,
+select,
+button {
+	color: #000000;
+	font-family: Inter-Regular, sans-serif;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+.container {
+	max-width: 1174px;
+	margin: 0 auto;
+}
+
+.navigation {
+	display: flex;
+	justify-content: space-between;
+	gap: 460px;
+}
+
+.navigation a {
+	font-size: 14px;
+}
+
+select {
+	border: none;
+	outline: none;
+}
+
+.header {
+	margin: 40px 375px 84px 375px;
+	font-family: Inter-Regular;
+	font-weight: 400;
+	font-size: 14px;
+}
+.logo-header {
+	display: flex;
+	align-items: center;
+}
+.menu-header {
+	display: flex;
+	justify-content: space-between;
+	gap: 14px;
+	align-items: center;
+	width: 577px;
+}
+
+.menu-header-first-link {
+	color: red;
+	font-family: Inter-SemiBold;
+}
+.menu-header-list-Features {
+}
+.main {
+	margin-bottom: 100px;
+}
+
+.mainContent {
+	display: flex;
+	justify-content: space-between;
+}
+.mainContent__leftSide {
+	max-width: 556px;
+}
+
+.mainContent__leftSide h1 {
+	font-size: 60px;
+	font-weight: 700;
+	font-family: Inter-Bold;
+	line-height: 120%;
+	margin-bottom: 20px;
+}
+.mainContent__leftSide p {
+	font-size: 20px;
+	line-height: 140%;
+	font-family: Inter-Regular;
+	opacity: 0.7;
+	margin-bottom: 32px;
+	max-width: 520px;
+}
+.mainContent__leftSide-btnList {
+}
+.mainContent__leftSide-btnList-framed {
+	border-radius: 56px;
+	padding: 16px 31px;
+	background: rgb(242, 88, 34);
+	font-family: Inter-SemiBold;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 19px;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+}
+.mainContent__leftSide-btnList-unframed {
+	padding: 0 0 0 48px;
+	font-family: Inter-SemiBold;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 19px;
+	opacity: 0.5;
+	border: none;
+	background: none;
+}
+
+*/ .footer {
+	padding: 100px 0;
+}
+
+.logos {
+	padding: 100px 0;
+	max-width: 1170px;
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	gap: 48px;
+}
